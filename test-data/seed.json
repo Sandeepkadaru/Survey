@@ -1,0 +1,49 @@
+[
+  {
+    "user": {
+      "email": "sandeep@azkasurvey.com",
+      "password_hash": "<<bcrypt-placeholder>>",
+      "display_name": "sandeep"
+    },
+    "personal_details": {
+      "name": "Shiva",
+      "address": "VJA",
+      "phone": "9876543220",
+      "gender": "Male",
+      "state": "Andhra Pradesh",
+      "town": "Singh Nagar",
+      "constituency_mla": "Mylavaram",
+      "mandal": "Mylavaram",
+      "constituency_mp": "Vijayawada",
+      "religion": "Hindu",
+      "age": 27,
+      "caste": "No",
+      "ward": "9"
+    },
+    "family_details": {
+      "total_family_members": 6,
+      "total_earning_members": 3,
+      "occupation": "Salaried",
+      "no_of_children": 2,
+      "how_many_females": 3,
+      "how_many_males": 3
+    },
+    "income_details": {
+      "how_many_earners": 2,
+      "saving_per_month": 10000,
+      "debt_range": "50000-100000",
+      "interest_rate": 7,
+      "source_of_debt": "Others"
+    },
+    "government_details": {
+      "street_roads": "Worse",
+      "town_village_roads": "Average",
+      "district_connecting_roads": "Average",
+      "transportation": "Good",
+      "government_hospitals": "Good",
+      "government_school_facilities": "Better",
+      "government_facilities_availability": "Better",
+      "will_you_vote_same_government": false
+    }
+  }
+]
