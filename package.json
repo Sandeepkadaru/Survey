@@ -1,11 +1,24 @@
 {
   "name": "survey",
   "version": "1.0.0",
-  "description": "",
+  "description": "A Playwright-based testing project with PostgreSQL database integration",
   "main": "index.js",
-  "scripts": {},
-  "keywords": [],
-  "author": "",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "test:debug": "playwright test --debug",
+    "test:report": "playwright show-report",
+    "test:codegen": "playwright codegen"
+  },
+  "keywords": [
+    "playwright",
+    "testing",
+    "e2e",
+    "postgresql",
+    "automation"
+  ],
+  "author": "Sandeepkadaru <sandeep.kadaru@gmail.com>",
   "license": "ISC",
   "devDependencies": {
     "@playwright/test": "^1.56.1",
